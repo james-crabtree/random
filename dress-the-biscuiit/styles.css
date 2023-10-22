@@ -25,8 +25,20 @@ p {
   left: 0;
 }
 
-.dress-an-image {
+.dress-a-bisc {
   position: absolute;
   top: 0px;
   left: 0px;
+}
+
+.head {
+  z-index: 2;
+}
+
+.body {
+  z-index: 0;
+}
+
+.shoes {
+  z-index: 1;
 }

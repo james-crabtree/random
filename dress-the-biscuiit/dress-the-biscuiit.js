@@ -16,7 +16,7 @@ let shoesIndex = 0
 let clothingIndex = 0 // 0 is the default which is the head, 1 is the body, and 2 is the shoes.
 
 // The 2nd line of code basically just selects the class assigned to the head from the HTML file, so it basically links the JS and HTML file together.
-const headVariable = document.querySelector('.dress-an-image.head')
+const headVariable = document.querySelector('.dress-an-image.biscHead')
 const bodyVariable = document.querySelector('.dress-an-image.body')
 const shoesVariable = document.querySelector('.dress-an-image.shoes')
 
